@@ -27,6 +27,10 @@ RSpec/FilePath:
 RSpec/LeadingSubject:
   Enabled: false
 
+RSpec/MultipleExpectations:
+  Exclude: 
+    - 'spec/features/**/*'
+  
 Style/NumericLiterals:
   MinDigits: 7
 
